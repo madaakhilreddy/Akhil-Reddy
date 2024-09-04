@@ -1,40 +1,66 @@
 *{
     margin: 0px;
-
 }
-
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .Continer{
-    background-color: grey;
+    background-color: rgb(161, 161, 161);
     padding: 2px;
     margin-top: 0px;
 }
 header{
     text-align: center;
 }
+nav li:hover,a:hover{
+    background-color: grey;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 h1{
     color: #002fd2;
+    margin-bottom: 10px;
 }
 nav{
     background-color: black;
     text-align: center;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+
 }
 nav ul li{
-    list-style-type: none;
+    list-style-type: flex;
     color: whitesmoke;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 15px;
+    
 }
 h2{
     color: #002fd2;
 }
 .Curriculum ul li{
-    list-style-type: disc;
+    list-style-type: none;
     color: black;
+    
+}
+
+.Curriculum ul{
+    margin-top: 1%;
+    padding-left: 0px;
+    display: flex;
+    gap: 10px;
+
+}
+.Curriculum li{
+    list-style: none;
+    background-color: rgb(216, 222, 227);
+    padding: 12px;
+    text-align: center;
+    border-radius: 2%;
+    margin-left: 0%;
+    border-radius: 5%;
+    
 }
 .Admission_Requirements li{
     list-style-type: disc;
@@ -50,6 +76,8 @@ section {
     margin: 20px;
     padding: 20px;
     background-color: white;
+    box-shadow: 0 0 5px rgb(77, 75, 75);
+    border-radius: 6px;
 }
 footer{
     background-color: black;
@@ -57,6 +85,7 @@ footer{
     padding: 20px;
     color: whitesmoke;
 }
-.Curriculum{
-
+h3{
+    color: #002fd2;
+    padding-bottom: 8%;
 }
